@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" hred="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+        <link rel="stylesheet" type="text/css" hred="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" hred="css/main.css" />
+		<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+        <title>ぼくのかそうつうか</title>
+    </head>
+    <body>
+        <section id="main">
+            <p id="title">ぼくのかそうつうか</p>
+            <p class="description"> 保有しているコインを選択して、数量を入力すると、計算してくれる</p>
+        </section>
+        <section id="tickerselect">
+            <tickerselect></tickerselect>
+        </section>
+        <footer><p>Copyright © 2017</p></footer>
+    </body>
+	<script src="https://rawgit.com/riot/riot/master/riot.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+    <script src="tickerselect.js"></script>
+	<script>
+		riot.mount('tickerselect')
+	</script>
+</html>
